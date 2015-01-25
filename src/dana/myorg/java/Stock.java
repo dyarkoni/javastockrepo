@@ -9,6 +9,12 @@ public class Stock {
 	private float ask;
 	private float bid;
 	private Date date;
+	private int recommendation;
+	private int stockQuantity;
+	private final int BUY=0;
+	private final int SELL=1;
+	private final int REMOVE=2;
+	private final int HOLD=3;
 
 
 	//parameterized constructor
@@ -58,11 +64,9 @@ public class Stock {
 
 
 
-
-
-
-
-
-
+	//public static void main(String[] args) {
+		//System.out.println("hi");;
+		
+	//}
 
 }
